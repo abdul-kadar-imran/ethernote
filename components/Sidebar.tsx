@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
       </div>
 
       <nav className="nav-menu">
-        <button 
+        <button
           onClick={() => setActiveTab('all')}
           className={`nav-item ${activeTab === 'all' ? 'active' : ''}`}
         >
@@ -26,7 +26,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
           <span className="nav-text" style={{ display: 'var(--display-nav-text)' }}>All Notes</span>
         </button>
 
-        <button 
+        <button
           onClick={() => setActiveTab('pinned')}
           className={`nav-item ${activeTab === 'pinned' ? 'active' : ''}`}
         >
@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, setActiveTab }) => {
           <span className="nav-text" style={{ display: 'var(--display-nav-text)' }}>Pinned</span>
         </button>
       </nav>
-      
+
       <div style={{ padding: '2rem', display: 'var(--display-nav-text)' }}>
         <div style={{ padding: '1rem', borderRadius: '1rem', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)' }}>
           <p style={{ fontSize: '9px', color: 'var(--text-muted)', fontWeight: 800, marginBottom: '0.5rem' }}>STORAGE</p>
