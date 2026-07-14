@@ -422,3 +422,145 @@ body {
   padding: 5rem 0;
   opacity: 0.3;
 }
+
+/* ═══════════════════════════════════════════
+   Footer — mobile-first responsive
+   ═══════════════════════════════════════════ */
+
+/* Wrapper */
+.site-footer {
+  margin-top: 2rem;
+  padding: 0 0.75rem 1rem;
+}
+
+/* Content row */
+.footer-content {
+  padding: 12px 14px 22px;
+}
+
+/* Left group gap */
+.footer-left {
+  gap: 10px;
+}
+
+/* Logo circle */
+.footer-logo-circle {
+  width: 40px;
+  height: 40px;
+}
+
+/* Left separator */
+.footer-sep-left {
+  height: 34px;
+}
+
+/* Name text */
+.footer-subtitle {
+  font-size: 7px;
+}
+
+.footer-title {
+  font-size: 16px;
+}
+
+/* Center tagline — hidden on mobile */
+.footer-tagline {
+  display: none !important;
+}
+
+/* Right separator — hidden on mobile */
+.footer-sep-right {
+  display: none;
+}
+
+/* Globe button */
+.footer-globe-btn {
+  width: 40px;
+  height: 40px;
+}
+
+/* ── sm  (≥ 640px) ── */
+@media (min-width: 640px) {
+  .site-footer {
+    padding: 0 1rem 1.25rem;
+  }
+
+  .footer-content {
+    padding: 14px 20px 26px;
+  }
+
+  .footer-left {
+    gap: 14px;
+  }
+
+  .footer-logo-circle {
+    width: 46px;
+    height: 46px;
+  }
+
+  .footer-sep-left {
+    height: 38px;
+  }
+
+  .footer-subtitle {
+    font-size: 8px;
+  }
+
+  .footer-title {
+    font-size: 19px;
+  }
+
+  .footer-globe-btn {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+/* ── md  (≥ 768px) ── */
+@media (min-width: 768px) {
+  .site-footer {
+    margin-top: 3rem;
+    padding: 0 1.5rem 1.5rem;
+  }
+
+  .footer-content {
+    padding: 16px 24px 28px;
+  }
+
+  .footer-left {
+    gap: 16px;
+  }
+
+  .footer-logo-circle {
+    width: 52px;
+    height: 52px;
+  }
+
+  .footer-sep-left {
+    height: 44px;
+  }
+
+  .footer-subtitle {
+    font-size: 9px;
+  }
+
+  .footer-title {
+    font-size: 22px;
+  }
+
+  .footer-sep-right {
+    display: block;
+  }
+
+  .footer-globe-btn {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+/* ── lg  (≥ 1024px) ── show tagline */
+@media (min-width: 1024px) {
+  .footer-tagline {
+    display: flex !important;
+  }
+}

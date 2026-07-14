@@ -5,6 +5,7 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import NoteEditor from './components/NoteEditor';
 import NoteCard from './components/NoteCard';
+import Footer from './components/footer';
 import { LucideLayoutGrid } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -115,6 +116,8 @@ const App: React.FC = () => {
               )}
             </div>
           </div>
+
+          <Footer />
         </div>
       </main>
     </div>

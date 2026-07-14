@@ -1,20 +1,201 @@
+# 📝 EtherNote
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+**Capture Every Idea, Anytime.**
+
+A modern, minimal, and responsive note-taking application built with React and TypeScript.
+
+🌐 **Live Demo:** https://ethernote.vercel.app/
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+## 📖 About
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_7eVSC_2rCklO3KtaFlsLjH9pDiYV_bx
+EtherNote is a lightweight and elegant note-taking application designed to help users organize ideas, manage daily tasks, and keep important information in one place. It features a clean interface, responsive design, and smooth user experience focused on productivity.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Features
 
+- 📝 Create new notes
+- ✏️ Edit existing notes
+- 🗑️ Delete notes
+- 🔍 Search notes instantly
+- 📱 Fully responsive design
+- 🌙 Modern dark theme
+- ✨ Smooth UI interactions
+- ⚡ Fast and lightweight
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+## 🚀 Live Demo
+
+Visit the application here:
+
+**https://ethernote.vercel.app/**
+
+---
+
+## 🖼️ Preview
+
+```text
+📝 Meeting Notes
+
+• Discuss project roadmap
+• Review UI improvements
+• Deploy latest version
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS3
+- Framer Motion
+- Lucide React
+
+---
+
+## 📂 Project Structure
+
+```text
+ethernote/
+├── components/
+│   ├── Header.tsx
+│   ├── Sidebar.tsx
+│   ├── NoteCard.tsx
+│   ├── NoteEditor.tsx
+│   └── Footer.tsx
+│
+├── dist/
+├── node_modules/
+│
+├── .gitignore
+├── App.tsx
+├── favicon.png
+├── index.html
+├── main.jsx
+├── metadata.json
+├── package.json
+├── package-lock.json
+├── README.md
+├── style.css
+├── tsconfig.json
+├── types.ts
+├── vercel.json
+└── vite.config.ts
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ethernote.git
+```
+
+Navigate to the project
+
+```bash
+cd ethernote
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 💡 Use Cases
+
+- Personal Notes
+- Daily Journal
+- Study Notes
+- Meeting Minutes
+- Project Planning
+- Brainstorming
+- To-do Lists
+- Quick Reminders
+
+---
+
+## 🎯 Future Improvements
+
+- 📌 Pin Notes
+- 🏷️ Categories & Tags
+- 📝 Rich Text Editor
+- 🌈 Custom Note Colors
+- 📤 Export Notes
+- 🔒 Password Protected Notes
+- ☁️ Cloud Synchronization
+- 📄 Markdown Support
+- 🖼️ Image Attachments
+- 📱 Progressive Web App (PWA)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve EtherNote:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Abdul Kadar Imran**
+
+Frontend Developer • UI/UX Designer • Web Application Developer
+
+Portfolio: https://imran-desktop.vercel.app/
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, consider giving it a Star!
+
+**EtherNote — Capture Every Idea, Anytime.**
+
+</div>
